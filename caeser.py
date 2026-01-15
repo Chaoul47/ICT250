@@ -1,5 +1,6 @@
 import string
-
+import utils
+import gcd
 def caesar_cipher(text, shift, mode):
     result = ""
     if mode == "decrypt":
